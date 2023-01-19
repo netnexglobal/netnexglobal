@@ -1,0 +1,49 @@
+<svg id="Group_117" data-name="Group 117" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1064" viewBox="0 0 1920 1064">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.269" cy="0.28" r="0.414" gradientTransform="matrix(1, 0, 0, 2.009, 0, -0.282)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2764c3"/>
+      <stop offset="1" stop-color="#042e70"/>
+    </radialGradient>
+    <filter id="Path_61" x="120" y="348" width="641" height="641" filterUnits="userSpaceOnUse">
+      <feOffset dy="68" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="39" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_5" x="394" y="563" width="501" height="501" filterUnits="userSpaceOnUse">
+      <feOffset dy="68" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="39" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_6" x="997" y="101" width="501" height="501" filterUnits="userSpaceOnUse">
+      <feOffset dy="68" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="39" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_4" x="1118" y="144" width="641" height="641" filterUnits="userSpaceOnUse">
+      <feOffset dy="68" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="39" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="Rectangle_75" data-name="Rectangle 75" width="1920" height="1025" fill="url(#radial-gradient)"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_61)">
+    <path id="Path_61-2" data-name="Path 61" d="M203.5,0C315.89,0,407,91.11,407,203.5S315.89,407,203.5,407,0,315.89,0,203.5,91.11,0,203.5,0Z" transform="translate(237 397)" fill="#052f71" opacity="0.43"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_5)">
+    <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="133.5" cy="133.5" r="133.5" transform="translate(511 612)" fill="#052f71" opacity="0.35"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_6)">
+    <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="133.5" cy="133.5" r="133.5" transform="translate(1114 150)" fill="#052f71" opacity="0.35"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_4)">
+    <circle id="Ellipse_4-2" data-name="Ellipse 4" cx="203.5" cy="203.5" r="203.5" transform="translate(1235 193)" fill="#052f71" opacity="0.35"/>
+  </g>
+</svg>

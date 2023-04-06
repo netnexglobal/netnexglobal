@@ -1295,6 +1295,7 @@ header {
     background: #000;
     border-radius: 15px;
     border-color: transparent;
+    display: none !important;
 }
 
 .memory-section .card {

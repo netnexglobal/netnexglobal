@@ -267,6 +267,14 @@ header {
   margin: auto;
 }
 
+.modal .form h1{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+
 .modal .form-buttons {
   width: 100%;
   max-width: 400px;

@@ -826,21 +826,21 @@
                             <br>
                             <p>We'll reach out to you in 30 minutes.</p>
                             <br>
-                            <form onsubmit="sendEmail() ; reset() ; return false;" method="post">
-                                <input type="email" name="email" id="email" required
+                            <form onsubmit="sendContactEmail() ; reset() ; return false;" method="post">
+                                <input type="email" name="email" id="emails" required
                                     placeholder="reach@netnexglobal.com" class="w-75 p-1"> <br><br>
                                 <input class="submit-btn" type="submit">
                             </form>
                         </div>
                         <script src="https://smtpjs.com/v3/smtp.js"></script>
                         <script>
-                            function sendEmail() {
+                            function sendContactEmail() {
                                 Email.send({
                                     SecureToken: "478fafd1-98c9-4ee5-9f3f-7b752b105aae",
                                     To: 'netnexgroup@gmail.com ',
-                                    From: document.getElementById("email").value,
+                                    From: document.getElementById("emails").value,
                                     Subject: " I want to know more about the Events of NetNex Global ",
-                                    Body: "Email : " + document.getElementById("email").value
+                                    Body: "Email : " + document.getElementById("emails").value
 
                                 }).then(
                                     message => alert("Submitted Succesfully")
@@ -1443,10 +1443,10 @@
         </section>
         <section class="section10 ">
 
-            <div id="contact" class="contact-form-page container">
+            <div class="contact-form-page container">
 
                 <center>
-                    <h2>Let's discuss how we can amplify
+                    <h2 style="font-size: 40px; font-weight: bold;color: #C0A69E;">Let's discuss how we can amplify
                         value!</h2>
                 </center>
                 <br>
@@ -1456,7 +1456,9 @@
                 <br>
                 <div>
                     <form onsubmit="sendEmail() ; reset() ; return false;" method="POST">
+
                         <div class="form-input">
+
                             <input type="hidden" name="_captcha" value="Please fill the captcha">
                             <div class="row-input">
                                 <input type="text" name="fname" id="fname" placeholder="First Name" required>
@@ -1524,7 +1526,7 @@
                                     <label for="interest7">Message if any</label>
                                     <br>
                                     <textarea class="message" id="message" name="message" rows="3">
-                                    </textarea>
+                                  </textarea>
                                 </div>
                             </div>
                         </div>
@@ -1552,7 +1554,7 @@
                             SecureToken: "478fafd1-98c9-4ee5-9f3f-7b752b105aae",
                             To: 'netnexgroup@gmail.com ',
                             From: document.getElementById("email").value,
-                            Subject: "NetNex Global contact form submition  ",
+                            Subject: "NetNex Global contact form submition ",
                             Body: "First Name : " + document.getElementById("fname").value
                                 + "<br> Last Name : " + document.getElementById("lname").value
                                 + "<br> Email : " + document.getElementById("email").value

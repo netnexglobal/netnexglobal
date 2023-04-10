@@ -183,7 +183,7 @@ header {
 }
 
 .section1 .image-gallery img {
-    max-width: 400px;
+/*     max-width: 400px; */
     margin: auto;
 }
 

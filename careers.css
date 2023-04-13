@@ -22,7 +22,7 @@
 
 .registration-btn {
     background-color: white;
-    color: #124391  ;
+    color: #124391;
     text-decoration: none !important;
     font-size: 14px;
     line-height: 20px;
@@ -183,7 +183,7 @@ header {
 }
 
 .section1 .image-gallery img {
-/*     max-width: 400px; */
+    /* max-width: 400px; */
     margin: auto;
 }
 
@@ -221,7 +221,7 @@ header {
 
 .section2 h1 {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: #505050;
     text-align: center;
 }
@@ -289,7 +289,6 @@ header {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-
 }
 
 #infocorner .owl-item.active.center .item {
@@ -327,6 +326,74 @@ header {
     transition: all 250ms ease-out 0s;
 }
 
+/* work life at NetNex */
+.netnex-life {
+    padding: 50px 0px;
+}
+
+.netnex-life h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #505050;
+    text-align: center;
+}
+
+.netnex-life .gallery {
+    border: 10px solid white;
+}
+
+.netnex-life .row .col-lg-6{
+    padding-left: 0px ;
+    padding-right: 0px;
+    outline: 10px solid white;
+}
+
+.netnex-life .row .col-lg-4{
+    padding-left: 0px ;
+    padding-right: 0px;
+    outline: 10px solid white;
+}
+
+.netnex-life .big-img{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 540px;
+}
+
+.netnex-life .big-img img{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.netnex-life .big-img:hover img {
+    transform: scale(1.1);
+}
+
+.netnex-life .small-img{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 540px;
+}
+
+.netnex-life .small-img img{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.netnex-life .small-img:hover img {
+    transform: scale(1.1);
+}
+
 /* section 3 */
 .section3 {
     padding: 50px 10%;
@@ -334,7 +401,7 @@ header {
 
 .section3 h1 {
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: #505050;
     text-align: center;
 }
@@ -470,22 +537,22 @@ td {
 
 }
 
-@media (min-width : 768px) and (max-width : 1024px){
-     /* footer section */
+@media (min-width : 768px) and (max-width : 1024px) {
+    /* footer section */
 
-  .footer-section .container {
-    padding: 40px 0px 0px;
-  }
+    .footer-section .container {
+        padding: 40px 0px 0px;
+    }
 
-  .footer-section .footer-logo {
-    margin-bottom: 3.5rem !important;
-  }
+    .footer-section .footer-logo {
+        margin-bottom: 3.5rem !important;
+    }
 
-  .footer-section .container .div2 p {
-    margin-bottom: 2rem !important;
-  }
+    .footer-section .container .div2 p {
+        margin-bottom: 2rem !important;
+    }
 
-  .footer-section .container .div3 p {
-    margin-bottom: 2rem !important;
-  }
+    .footer-section .container .div3 p {
+        margin-bottom: 2rem !important;
+    }
 }

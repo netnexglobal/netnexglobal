@@ -78,6 +78,12 @@ header {
     font-weight: 800;
 }
 
+.about-section .pp-img{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
 .about-section p {
     color: white;
     z-index: 10;

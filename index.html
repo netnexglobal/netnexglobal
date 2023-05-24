@@ -1479,7 +1479,7 @@
                 </center>
                 <br>
                 <div>
-                    <form onsubmit="sendEmail() ; reset() ; return false;" method="POST">
+                    <form action="https://netnexgroup.com/netnexglobalReactmail.php" method="POST">
 
                         <div class="form-input">
 
@@ -1557,43 +1557,7 @@
                         <button class="submit-btn" type="submit">Send</button>
                     </form>
                 </div>
-                <script src="https://smtpjs.com/v3/smtp.js"></script>
-                <script>
-                    function sendEmail() {
-
-                        let checkboxes = document.querySelectorAll('.checkbox-class');
-
-                        let selectedValues = [];
-
-                        checkboxes.forEach(function (checkbox) {
-                            if (checkbox.checked) {
-                                // Add the value of the checkbox to the array
-                                selectedValues.push(checkbox.value);
-                            }
-                        });
-
-                        let services = selectedValues.join(', ');
-
-                        Email.send({
-                            SecureToken: "478fafd1-98c9-4ee5-9f3f-7b752b105aae",
-                            To: 'netnexgroup@gmail.com ',
-                            From: document.getElementById("email").value,
-                            Subject: "NetNex Global contact form submition ",
-                            Body: "First Name : " + document.getElementById("fname").value
-                                + "<br> Last Name : " + document.getElementById("lname").value
-                                + "<br> Email : " + document.getElementById("email").value
-                                + "<br> Phone Number : " + document.getElementById("phone").value
-                                + "<br> Company Name : " + document.getElementById("cname").value
-                                + "<br> Services Interested in.. : " + services
-                                + "<br> Other service interested in : " + document.getElementById("text-here").value
-                                + "<br> Message if any : " + document.getElementById("message").value
-
-                        }).then(
-                            message => alert("Message Sent Succesfully")
-                        );
-
-                    }
-                </script>
+                
             </div>
 
         </section>
